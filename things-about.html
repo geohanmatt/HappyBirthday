@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#8a2be2">
+  <title>Things I Like About You</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="particles-js"></div>
+  <div class="hearts">
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+    <div class="heart"></div>
+  </div>
+
+  <main class="main-container">
+    <div class="card">
+      <div class="tape"></div>
+      <div class="paper-clip"></div>
+      <h1 class="card-title">Things I Like About You 💜</h1>
+      <ul class="like-list">
+        <li>You're super understanding</li>
+        <li>You have a great sense of humor</li>
+        <li>You're incredibly kind and thoughtful</li>
+        <li>You always know how to make my day better</li>
+        <li>You're strong and resilient</li>
+        <li>You're beautiful inside and out!</li>
+      </ul>
+      <div class="button-group">
+        <a href="message.html" class="btn btn-back">Go Back</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 100, "density": { "enable": true, "value_area": 800 } },
+        "color": { "value": "#e6e6fa" },
+        "shape": { "type": "star", "stroke": { "width": 0, "color": "#000000" } },
+        "opacity": { "value": 0.8, "random": true },
+        "size": { "value": 4, "random": true },
+        "move": { "enable": true, "speed": 1, "direction": "none", "random": true, "straight": false, "out_mode": "out" }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": { "onhover": { "enable": true, "mode": "bubble" }, "onclick": { "enable": true, "mode": "push" } },
+        "modes": { "bubble": { "distance": 200, "size": 6, "duration": 2, "opacity": 1 }, "push": { "particles_nb": 4 } }
+      },
+      "retina_detect": true
+    });
+  </script>
+</body>
+</html>
